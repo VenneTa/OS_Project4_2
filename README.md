@@ -5,7 +5,7 @@ This project made many small changes to many files in the xv6-public folder. I d
 
 In sysfile.c, added readcount as a global variable at the beginning.
 
-In sysfile.c, within $sys\_read$ function, added a readcount++ to increment this always when called successfully.
+In sysfile.c, within sys_read function, added a readcount++ to increment this always when called successfully.
 
 In syscall.h, added a number for syscall readcount.
 
