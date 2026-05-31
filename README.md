@@ -1,6 +1,9 @@
 # OS_Project4_2
 Project 4 for the OS course
 
+The goal of this project was to implement a system call to the xv6 system that tells how many times the read system call has been called. The new system call is 
+named readcount.
+
 This project made many small changes to many files in the xv6-public folder. I did not create the original xv6-public folder and will highlight the only changes I made to it.
 
 In sysfile.c, added readcount as a global variable at the beginning.
