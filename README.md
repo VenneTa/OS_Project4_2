@@ -21,3 +21,5 @@ In user.h, added the syscall readcount to list.
 In sysproc.c, added the syscall readcount to the kernell.
 
 In readcount.c, created functionality that using global parameter readcount, returns how many times read system call has been made. Using global parameter maybe a bit iffy, but for this small project maybe acceptable now.
+
+In UPROGS add the makefile alongside the others.
